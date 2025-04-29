@@ -12,7 +12,7 @@
   }
 
   &__title {
-    @apply text-[56px] leading-[92px] mb-[40px] font-geelyBoldAlt font-semibold;
+    @apply text-[56px] leading-[92px] mb-[40px] pl-[20px] font-geelyBoldAlt font-semibold;
   }
 
   &__badge {
@@ -35,11 +35,10 @@
   }
 
   &__spec-text {
-    @apply text-sm;
-    font-family: "Geely Bold 20230926";
+    @apply font-geelyBoldAlt text-sm;
+
     h4 {
-      @apply text-[32px] font-bold leading-none;
-      font-family: "Geely Bold 20230926";
+      @apply text-[32px] font-geelyBoldAlt font-bold leading-none;
     }
   }
 }

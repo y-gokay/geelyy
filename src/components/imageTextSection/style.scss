@@ -1,40 +1,47 @@
-.image-text-section {
+.design-section {
   @apply px-6 py-16 max-w-[1440px] mx-auto;
 
-  .section__content {
-    @apply mb-12;
+  &__block {
+    @apply mb-32;
   }
 
-  .section__subtitle {
-    @apply text-xs tracking-[0.2em] uppercase text-black font-semibold mb-4;
+  &__header {
+    @apply mb-14 text-left;
   }
 
-  .section__title {
-    @apply text-3xl lg:text-4xl font-bold text-black leading-[110%];
+  &__subtitle {
+    @apply text-sm font-geelyBoldAlt font-bold uppercase mb-2 tracking-[0.2em] text-black;
   }
 
-  .section__grid {
-    @apply flex flex-col gap-6 lg:grid lg:grid-cols-2 lg:gap-6 items-start;
+  &__title {
+    @apply text-3xl md:text-5xl font-geelyBoldAlt font-bold text-black;
+  }
+
+  &__grid {
+    @apply flex flex-col md:flex-row gap-8 items-start;
 
     &.reverse {
-      @apply lg:flex-row-reverse;
+      @apply md:flex-row-reverse;
     }
   }
 
-  .section__image img,
-  .section__image-small img {
-    @apply rounded-xl w-full h-auto object-cover;
+  &__image-block {
+    @apply flex-1 flex flex-col;
   }
 
-  .section__text-block {
-    @apply flex flex-col gap-4;
+  &__image {
+    @apply object-cover rounded-xl w-full h-auto mb-6;
   }
 
-  .section__text-title {
-    @apply text-base lg:text-lg font-bold text-black;
+  &__text {
+    @apply mt-2;
   }
 
-  .section__text-desc {
-    @apply text-sm text-black leading-relaxed;
+  &__text-title {
+    @apply text-xl font-geelyBoldAlt font-bold mb-2 text-black;
+  }
+
+  &__text-desc {
+    @apply font-inter text-sm text-black leading-relaxed;
   }
 }

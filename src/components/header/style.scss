@@ -10,8 +10,7 @@
   }
 
   &__nav {
-    @apply absolute top-[24px] left-[240px] flex gap-[24px] text-white font-normal text-[18px] leading-[140%];
-    font-family: "Inter";
+    @apply absolute top-[24px] left-[240px] flex gap-[24px] text-white font-inter font-normal text-[18px] leading-[140%];
 
     ul {
       @apply flex gap-16 items-center;

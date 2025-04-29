@@ -13,17 +13,14 @@
   }
 
   &__subtitle {
-    font-family: "Geely Bold 20230926", sans-serif;
-    @apply text-[14px] font-normal leading-[100%] tracking-[0.25em] uppercase mb-4 max-w-[171px];
+    @apply text-[14px]  font-geelyBoldAlt font-normal leading-[100%] tracking-[0.25em] uppercase mb-4 max-w-[171px];
   }
 
   &__title {
-    font-family: "Geely Bold 20230926", sans-serif;
-    @apply text-[38px] font-normal leading-[100%] mb-6 max-w-[612px];
+    @apply text-[38px]  font-geelyBoldAlt font-normal leading-[100%] mb-6 max-w-[612px];
   }
 
   &__description {
-    font-family: "Inter", sans-serif;
-    @apply text-[18px] font-medium leading-[100%] text-white max-w-[662px];
+    @apply text-[18px] font-inter font-medium leading-[100%] text-white max-w-[662px];
   }
 }
