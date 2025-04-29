@@ -117,4 +117,14 @@ export const geelyData = {
       "W pełni naładowany, Geely EX5 pozwoli Ci dotrzeć do celu Twojej podróży bez przystanków.",
     backgroundImage: "geely/sectionImage1.png",
   },
+  charingSection: {
+    subtitle: "SZYBSZE LADOWANIE",
+    title: "GOTOWY DO DROGI JUZ W 20 MINUT**",
+    description:
+      "Czy wybierzesz ładowanie w zaciszu domowym, czy skorzystasz z ogólnodostępnych stacji, Geely EX5 naładuje się wyjątkowo szybko za sprawą pokładowej ładowarki 11 kW oraz naszej technologii szybkiego ładowania prądem stałym (DC) o mocy 100 kW. Dzięki temu osiągniesz poziom naładowania od 30% do 80% w zaledwie 20 minut**.",
+    image: {
+      url: "geely/charging.png",
+      alt: "Charging Image",
+    },
+  },
 };
