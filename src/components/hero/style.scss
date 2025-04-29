@@ -1,0 +1,46 @@
+.hero {
+  @apply relative w-full h-[1161px];
+
+  &__bg {
+    @apply absolute inset-0 w-full h-full object-cover z-0;
+  }
+
+  &__container {
+    @apply relative z-10 max-w-[1440px] mx-auto flex flex-col justify-between text-white h-full;
+    padding-top: 100px;
+    padding-bottom: 120px;
+  }
+
+  &__title {
+    @apply text-[56px] leading-[92px] mb-[40px];
+    font-family: "Geely Bold 20230926";
+  }
+
+  &__badge {
+    @apply w-[339px] h-[164px] ml-auto mr-[50px];
+  }
+
+  &__specs {
+    @apply flex gap-40 mt-auto;
+  }
+
+  &__spec-block {
+    @apply flex gap-4 items-start;
+  }
+
+  &__spec-bar {
+    @apply bg-white;
+
+    width: 5px;
+    height: 69px;
+  }
+
+  &__spec-text {
+    @apply text-sm;
+    font-family: "Geely Bold 20230926";
+    h4 {
+      @apply text-[32px] font-bold leading-none;
+      font-family: "Geely Bold 20230926";
+    }
+  }
+}

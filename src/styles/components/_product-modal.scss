@@ -1,0 +1,35 @@
+.product-features-modal {
+  &__header {
+    @apply font-space-grotesk uppercase mb-5 text-[26px] leading-[30px];
+    @apply lg:text-[44px];
+  }
+
+  &__category-title {
+    @apply relative py-1.5 mb-2.5;
+    @apply font-bold;
+    &::before {
+      @apply content-[''];
+      @apply absolute left-0 bottom-0 bg-orange-gradient;
+      @apply h-1 w-[67px];
+    }
+  }
+
+  &__list {
+    @apply list-disc pl-6 space-y-1;
+  }
+  &__content {
+    @apply lg:columns-4 lg:gap-4;
+  }
+  &__category {
+    break-inside: avoid;
+    @apply mb-4;
+  }
+}
+
+@supports (grid-template-rows: masonry) {
+  .product-features-modal__content {
+    @apply lg:grid lg:grid-cols-4;
+    grid-template-rows: masonry;
+    grid-auto-flow: dense;
+  }
+}

@@ -1,0 +1,27 @@
+.header {
+  @apply fixed top-0 left-0 right-0 w-full h-[71px] bg-black z-50 transition-all duration-300;
+
+  &__inner {
+    @apply max-w-[1920px] mx-auto relative flex items-center h-full px-6;
+  }
+
+  &__logo {
+    @apply absolute top-[24px] left-[54px] w-[143px] h-[23px] block;
+  }
+
+  &__nav {
+    @apply absolute top-[24px] left-[240px] flex gap-[24px] text-white font-normal text-[18px] leading-[140%];
+    font-family: "Inter";
+
+    ul {
+      @apply flex gap-16 items-center;
+    }
+
+    li {
+      @apply relative;
+      a {
+        @apply text-white hover:underline;
+      }
+    }
+  }
+}

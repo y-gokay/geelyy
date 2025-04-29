@@ -1,0 +1,57 @@
+@import "style.scss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "components/product-modal";
+@font-face {
+  font-family: "Geely Bold 20230926";
+  src: url("/fonts/GEELY-Bold-20230926.ttf") format("truetype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Geely";
+  src: url("/fonts/GEELY-Regular.ttf") format("truetype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Geely Light";
+  src: url("/fonts/GEELY-Light.ttf") format("truetype");
+  font-weight: 300;
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #231815;
+}
+
+/* @media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+} */
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: "Geely", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-space-grotesk);
+}
+
+.font-space-grotesk {
+  font-family: var(--font-space-grotesk);
+}
+
+#onetrust-banner-sdk {
+  display: none !important;
+}

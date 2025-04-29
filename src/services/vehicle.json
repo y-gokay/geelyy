@@ -1,0 +1,197 @@
+{
+    "length": [
+        {
+            "id": 1,
+            "name": "L1",
+            "slug": "l1",
+            "price": 45000,
+            "key_features": [
+                "Max payload 1,350 kg",
+                "Capacity from 6.95m3",
+                "Gross vehicle weight from 3,500 kg"
+            ],
+            "image": "/images/l1.png",
+            "width": "4,990 mm",
+            "compatible_heights": ["h1", "h2"]
+        },
+        {
+            "id": 2,
+            "name": "L2",
+            "slug": "l2",
+            "price": 48000,
+            "key_features": [
+                "Max payload 1,245 kg",
+                "Capacity from 9.39m3",
+                "Gross vehicle weight from 3,500 kg"
+            ],
+            "image": "/images/l2.png",
+            "width": "5,490 mm",
+            "compatible_heights": ["h2", "h3"]
+        },
+        {
+            "id": 3,
+            "name": "L3",
+            "slug": "l3",
+            "price": 53000,
+            "key_features": [
+                "Max payload 1,045 kg",
+                "Capacity 13.0m3",
+                "Gross vehicle weight 3,500 kg"
+            ],
+            "image": "/images/l3.png",
+            "width": "5,995 mm",
+            "compatible_heights": ["h3"]
+        }
+    ],
+    "height": [
+        {
+            "id": 1,
+            "name": "H1",
+            "slug": "h1",
+            "price": 45000,
+            "key_features": [
+                "Max payload 1,350 kg",
+                "Capacity 6.95m3",
+                "Gross vehicle weight 3,500 kg "
+            ],
+            "image": "/images/h1.png",
+            "height": "1,980 mm"
+        },
+        {
+            "id": 2,
+            "name": "H2",
+            "slug": "h2",
+            "price": 48000,
+            "key_features": [
+                "Max payload 1,245 kg",
+                "Capacity 9.39m3",
+                "Gross vehicle weight 3,500 kg"
+            ],
+            "image": "/images/h2.png",
+            "height": "2,180 mm"
+        },
+        {
+            "id": 3,
+            "name": "H3",
+            "slug": "h3",
+            "price": 53000,
+            "key_features": [
+                "Max payload 1,045 kg",
+                "Capacity 13.0m3",
+                "Gross vehicle weight 3,500 kg"
+            ],
+            "image": "/images/h3.png",
+            "height": "2,500 mm"
+        }
+    ],
+    "combinations": [
+        {
+            "length": "l1",
+            "height": "h1",
+            "price": 45000,
+            "compatible_batteries": [
+                {"slug": "67-kwh", "price": 45000},
+                {"slug": "83-kwh", "price": 48000}
+            ]
+        },
+        {
+            "length": "l1",
+            "height": "h2",
+            "price": 49000,
+            "compatible_batteries": [
+                {"slug": "83-kwh", "price": 49000}
+            ]
+        },
+        {
+            "length": "l2",
+            "height": "h2",
+            "price": 48000,
+            "compatible_batteries": [
+                {"slug": "67-kwh", "price": 48000},
+                {"slug": "83-kwh", "price": 51000}
+            ]
+        },
+        {
+            "length": "l3",
+            "height": "h3",
+            "price": 53000,
+            "compatible_batteries": [
+                {"slug": "83-kwh", "price": 53000},
+                {"slug": "106-kwh", "price": 56000}
+            ]
+        },
+        {
+            "length": "l2",
+            "height": "h3",
+            "price": 52000,
+            "compatible_batteries": [
+                {"slug": "83-kwh", "price": 52000}
+            ]
+        }
+    ],
+    "battery": [
+        {
+            "id": 1,
+            "name": "67 kWh",
+            "slug": "67-kwh",
+            "price": 48000,
+            "key_features": [
+                "36-minute",
+                "2,000 kg",
+                "188 miles"
+            ]
+        },
+        {
+            "id": 2,
+            "name": "83 kWh",
+            "slug": "83-kwh",
+            "price": 51000,
+            "key_features": [
+                "36-minute",
+                "2,000 kg",
+                "234 miles"
+            ]
+        },
+        {
+            "id": 3,
+            "name": "106 kWh",
+            "slug": "106-kwh",
+            "price": 56000,
+            "key_features": [
+                "40-minute",
+                "2,000 kg",
+                "247 miles"
+            ]
+        }
+    ],
+    "extras": [
+        {
+            "id": 1,
+            "name": "Rear Trailer System",
+            "slug": "rear-trailer-system",
+            "price": 400,
+            "image": "/images/extra-1.jpg"
+        },
+        {
+            "id": 2,
+            "name": "REAR DOORS 270-DEGREE HINGE",
+            "slug": "rear-doors-270-degree-hinge",
+            "price": 300,
+            "image": "/images/extra-2.jpg"
+        },
+        {
+            "id": 3,
+            "name": "Compartment partition with window",
+            "slug": "compartment-partition-with-window",
+            "price": 200,
+            "image": "/images/extra-3.jpg"
+        },
+        {
+            "id": 4,
+            "name": "SINGLE CO-PILOT SEAT",
+            "slug": "single-co-pilot-seat",
+            "price": 200,
+            "image": "/images/extra-4.jpg"
+        }
+    ]
+}

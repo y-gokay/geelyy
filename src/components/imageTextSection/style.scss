@@ -1,0 +1,40 @@
+.image-text-section {
+  @apply px-6 py-16 max-w-[1440px] mx-auto;
+
+  .section__content {
+    @apply mb-12;
+  }
+
+  .section__subtitle {
+    @apply text-xs tracking-[0.2em] uppercase text-black font-semibold mb-4;
+  }
+
+  .section__title {
+    @apply text-3xl lg:text-4xl font-bold text-black leading-[110%];
+  }
+
+  .section__grid {
+    @apply flex flex-col gap-6 lg:grid lg:grid-cols-2 lg:gap-6 items-start;
+
+    &.reverse {
+      @apply lg:flex-row-reverse;
+    }
+  }
+
+  .section__image img,
+  .section__image-small img {
+    @apply rounded-xl w-full h-auto object-cover;
+  }
+
+  .section__text-block {
+    @apply flex flex-col gap-4;
+  }
+
+  .section__text-title {
+    @apply text-base lg:text-lg font-bold text-black;
+  }
+
+  .section__text-desc {
+    @apply text-sm text-black leading-relaxed;
+  }
+}

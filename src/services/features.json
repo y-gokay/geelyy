@@ -1,0 +1,144 @@
+{
+    "Rear doors": {
+        "item": [
+            "180º rear door",
+            "270º rear door (optional)"
+        ]
+    },
+    "Safety and Security": {
+        "item": [
+            "Anti-lock Braking System (ABS)",
+            "Electronic brakeforce distribution / cornering brake control",
+            "Driver & passenger airbag",
+            "Height adjustable safety belt",
+            "Three-point belt",
+            "Pretensioning force",
+            "Driver & passenger seat belt reminder/alarm",
+            "Tyre Pressure Monitoring System (TPMS)",
+            "Automatic door locking",
+            "Overspeed alarm",
+            "Acoustic Vehicle Alerting System (AVAS)",
+            "Collision power-off system",
+            "Collision door opening",
+            "Door open reminder"
+        ]
+    },
+    "Assist driving configuration": {
+        "item": [
+            "4 point front parking radar",
+            "4 point rear parking radar",
+            "Electronic Parking Brake (EPB)",
+            "Auto hold parking brake"
+        ]
+    },
+    "Body colour": {
+        "item": [
+            "Jade White",
+            "Bamboo Green (optional)",
+            "Brocade Gold (optional)",
+            "Porcelain Grey (optional)",
+            "Ink Black (optional)",
+            "Pale Blue (optional)"
+        ]
+    },
+    "Anti-theft configuration": {
+        "item": [
+            "Central locking",
+            "Smart key x 2",
+            "Keyless start system",
+            "Four door anti-theft"
+        ]
+    },
+    "Interior": {
+        "item": [
+            "Fixed double passenger seat",
+            "Cup holders x 2",
+            "Cup holder for driver seat",
+            "Glove box",
+            "Non-woven fabric front ceiling",
+            "PVC front floor",
+            "Rear compartment partition fixed (without window)",
+            "Rear cabin ceiling light x 2",
+            "PVC rear compartment floor",
+            "Anchor points",
+            "Multifunction steering wheel",
+            "Heated steering wheel",
+            "Full LCD dashboard",
+            "Clothes hook",
+            "Ventilated & heated driver seat",
+            "4-way manual adjustable driver seat",
+            "Driver’s seat handrail",
+            "Ventilated & heated outer passenger seat"  
+        ]
+    },
+    "Intelligent driving configuration": {
+        "item": [
+            "12.3inch MP5+FM/AM+DAB+WIFI",
+            "Door Open Warning (DOW)",
+            "Rear Cross Traffic Alert (RCTA)",
+            "Lane Change Assist (LCA)",
+            "Lane Departure Warning System (LDWS)",
+            "Intelligent High Beam Control (IHBC)",
+            "Traffic Sign Interpretation (TSI)",
+            "Lane Keep Assist (LKA)",
+            "Autonomous Emergency Braking (AEBS)",
+            "Predictive Collision Warning (PCW)",
+            "Forward Collision Warning (FCW)",
+            "Full Speed Range Adaptive Cruise Control (ACC)",
+            "Intelligent Speed Assist (ISA)",
+            "Urban highway Intelligent Cruise Control (ICC)",
+            "Blind Spot Detection (BSD)",
+            "360 Around View (AVM360)",
+            "Hill Descent Control (HDC)",
+            "Driver Monitoring System (DMS)"    
+        ]
+    },
+    "Electronic configuration": {
+        "item": [
+            "Road rescue E-Call+",
+            "Maintenance reminder",
+            "Bluetooth music",
+            "Easy link",
+            "Apple CarPlay and Android Auto",
+            "12V power outlet",
+            "USB point x 2",
+            "Speakers x 2"
+        ]
+    },
+    "Lights": {
+        "item": [
+            "Automatic front LED headlights",
+            "LED daytime running lights",
+            "Front fog lamp",
+            "Rear fog lamp",
+            "LED high brake light"
+        ]
+    },
+    "Windows": {
+        "item": [
+            "Power front windows",
+            "One click lifting",
+            "Exterior mirror integrated side turn signal",
+            "Manual folding and electrically adjustable door mirrors",
+            "Automatic sensing wipers",
+            "Heated windscreen"
+        ]
+    },
+    "AC": {
+        "item": [
+            "Automatic",
+            "Defrosting & defogging vents"
+        ]
+    },
+    "Cargo": {
+        "item": [
+            "Weight monitoring system"
+        ]
+    },
+    "Others": {
+        "item": [
+            "Rear trailer bar, trailer hook & TRM (optional)",
+            "Tool bag & front hook"
+        ]
+    }
+}

@@ -1,0 +1,41 @@
+.footer {
+  @apply bg-[#383838] text-white py-6 text-[14px] leading-none font-normal font-geely;
+
+  &__inner {
+    @apply max-w-[1800px] mx-auto px-6 flex flex-nowrap items-center justify-between gap-6;
+  }
+
+  &__logo {
+    @apply flex-shrink-0;
+    img {
+      @apply w-[143px] h-[23px] object-contain;
+    }
+  }
+
+  &__grid {
+    @apply flex flex-col items-center justify-center text-center gap-2;
+  }
+
+  &__copyright {
+    @apply text-[14px];
+  }
+
+  &__menu {
+    @apply flex flex-wrap justify-center gap-x-6 text-[14px];
+  }
+
+  &__logo-partner {
+    @apply flex-shrink-0;
+    .jameel-logo {
+      @apply w-[154px] h-[127px] object-contain;
+    }
+  }
+}
+.footer__grid {
+  @apply flex items-center justify-center gap-48 text-center;
+  @apply flex-row;
+}
+
+.footer__menu {
+  @apply flex flex-wrap items-center gap-x-6 leading-none;
+}
