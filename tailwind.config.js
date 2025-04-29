@@ -13,10 +13,11 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        "space-grotesk": ["var(--font-space-grotesk)"],
-        geelybold: ["Geely Bold 20230926"],
-        geely: ["Geely"],
-        geelylight: ["Geely Light"],
+        geelyBold: ["var(--geely-bold)"],
+        geelyBoldAlt: ["var(--geely-bold-2)"],
+        geelyLight: ["var(--geely-light)"],
+        geelyNormal: ["var(--geely-normal)"],
+        inter: ["var(--inter)"],
       },
       colors: {
         background: "var(--background)",
