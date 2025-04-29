@@ -3,6 +3,7 @@ import Header from "@/components/header/Header";
 import Hero from "@/components/hero/Hero";
 import ImageTextSection from "../components/imageTextSection/imageTextSection";
 import SectionImage from "@/components/sectionImage/SectionImage";
+import InfoWithImageSection from "@/components/InfoWithImageSection/InfoWithImageSection";
 
 export default async function Home() {
   const page = {
@@ -19,6 +20,10 @@ export default async function Home() {
         id: "0003",
         __component: "section.image",
       },
+      {
+        id: "0004",
+        __component: "section.InfoWithImage",
+      },
     ],
   };
 
@@ -26,6 +31,7 @@ export default async function Home() {
     "hero.main": Hero,
     "ImageText.section": ImageTextSection,
     "section.image": SectionImage,
+    "section.InfoWithImage": InfoWithImageSection,
   };
 
   return (
