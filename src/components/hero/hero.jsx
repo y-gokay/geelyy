@@ -9,14 +9,12 @@ export default function Hero() {
     <section className="hero">
       <picture>
         <source
-          media="(max-width: 767px)"
+          media="(max-width: 768px)"
           srcSet={geelyData.bannerMobile.url}
         />
-        <Image
+        <img
           src={geelyData.bannerDesktop.url}
           alt="Hero"
-          fill
-          priority
           className="hero__bg"
         />
       </picture>
