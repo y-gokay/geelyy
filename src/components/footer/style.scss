@@ -1,8 +1,17 @@
 .footer {
-  @apply bg-[#383838] text-white py-6 text-[14px] leading-none font-normal font-geelyLight;
+  @apply text-white py-6 text-[14px] leading-none font-normal font-geelyLight;
+  background-color: #000;
+
+  @screen md {
+    background-color: #383838;
+  }
 
   &__inner {
-    @apply max-w-[1800px] mx-auto px-6 flex flex-nowrap items-center justify-between gap-6;
+    @apply max-w-[1800px] mx-auto px-6 flex flex-col items-center gap-6;
+
+    @screen md {
+      @apply flex-row justify-between items-center;
+    }
   }
 
   &__logo {
@@ -12,30 +21,45 @@
     }
   }
 
-  &__grid {
-    @apply flex flex-col items-center justify-center text-center gap-2;
+  &__center {
+    @apply flex flex-col items-center gap-3 text-center;
+
+    @media (min-width: 769px) and (max-width: 1199px) {
+      flex-direction: column;
+      text-align: center;
+      gap: 6px;
+    }
+
+    @screen xl {
+      @apply flex-row gap-12 items-center text-left;
+    }
   }
 
   &__copyright {
-    @apply text-[14px];
+    @apply hidden;
+
+    @screen md {
+      @apply block;
+    }
   }
 
   &__menu {
-    @apply flex flex-wrap justify-center gap-x-6 text-[14px];
+    @apply flex flex-col items-center gap-2;
+
+    @screen xl {
+      @apply flex-row gap-x-6;
+    }
   }
 
   &__logo-partner {
     @apply flex-shrink-0;
-    .jameel-logo {
+
+    @screen md {
+      @apply mt-2;
+    }
+
+    img {
       @apply w-[154px] h-[127px] object-contain;
     }
   }
-}
-.footer__grid {
-  @apply flex items-center justify-center gap-48 text-center;
-  @apply flex-row;
-}
-
-.footer__menu {
-  @apply flex flex-wrap items-center gap-x-6 leading-none;
 }

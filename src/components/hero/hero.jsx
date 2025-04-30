@@ -7,13 +7,20 @@ import "./style.scss";
 export default function Hero() {
   return (
     <section className="hero">
-      <Image
-        src={geelyData.bannerDesktop.url}
-        alt="Hero"
-        fill
-        priority
-        className="hero__bg"
-      />
+      <picture>
+        <source
+          media="(max-width: 767px)"
+          srcSet={geelyData.bannerMobile.url}
+        />
+        <Image
+          src={geelyData.bannerDesktop.url}
+          alt="Hero"
+          fill
+          priority
+          className="hero__bg"
+        />
+      </picture>
+
       <div className="hero__container">
         <h1 className="hero__title">{geelyData.mainHero.title}</h1>
 
@@ -21,8 +28,8 @@ export default function Hero() {
           <Image
             src={geelyData.euroNCAP.url}
             alt="Euro NCAP"
-            width={339}
-            height={164}
+            width={200}
+            height={100}
           />
         </div>
 

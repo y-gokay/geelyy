@@ -13,11 +13,10 @@ function Footer() {
             alt="Geely Logo"
             width={143}
             height={23}
-            className="object-contain"
           />
         </div>
 
-        <div className="footer__grid">
+        <div className="footer__center">
           <p className="footer__copyright">{geelyData.copyright.title}</p>
           <div className="footer__menu">
             {geelyData.footerMenu.map((item, index) => (
@@ -42,10 +41,9 @@ function Footer() {
         <div className="footer__logo-partner">
           <Image
             src={geelyData.jameelLogo.url}
-            alt="Jameel Motors Logo"
+            alt="Jameel Logo"
             width={154}
             height={127}
-            className="jameel-logo"
           />
         </div>
       </div>

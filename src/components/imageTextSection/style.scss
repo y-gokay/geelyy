@@ -1,36 +1,36 @@
 .design-section {
-  @apply px-6 py-16 max-w-[1440px] mx-auto;
+  @apply w-full px-[20px] py-[40px] md:px-[100px] md:py-[80px] max-w-[1440px] mx-auto;
 
   &__block {
-    @apply mb-32;
+    @apply mb-[60px] md:mb-[100px];
   }
 
   &__header {
-    @apply mb-14 text-left;
+    @apply mb-8 md:mb-14;
   }
 
   &__subtitle {
-    @apply text-sm font-geelyBoldAlt font-bold uppercase mb-2 tracking-[0.2em] text-black;
+    @apply text-[12px] font-geelyBoldAlt tracking-[0.25em] uppercase text-black mb-2;
   }
 
   &__title {
-    @apply text-3xl md:text-5xl font-geelyBoldAlt font-bold text-black;
+    @apply text-[28px] md:text-[40px] font-geelyBoldAlt text-black leading-tight;
   }
 
   &__grid {
-    @apply flex flex-col md:flex-row gap-8 items-start;
+    @apply flex flex-col gap-8 md:flex-row;
 
-    &.reverse {
+    &--reverse {
       @apply md:flex-row-reverse;
     }
   }
 
-  &__image-block {
+  &__item {
     @apply flex-1 flex flex-col;
   }
 
   &__image {
-    @apply object-cover rounded-xl w-full h-auto mb-6;
+    @apply w-full h-auto rounded-xl object-cover mb-4;
   }
 
   &__text {
@@ -38,10 +38,10 @@
   }
 
   &__text-title {
-    @apply text-xl font-geelyBoldAlt font-bold mb-2 text-black;
+    @apply text-[16px] md:text-[20px] font-geelyBoldAlt text-black mb-1;
   }
 
   &__text-desc {
-    @apply font-inter text-sm text-black leading-relaxed;
+    @apply text-[14px] md:text-[16px] font-inter text-black leading-relaxed;
   }
 }

@@ -2,24 +2,23 @@
   @apply fixed top-0 left-0 right-0 w-full h-[71px] bg-black z-50 transition-all duration-300;
 
   &__inner {
-    @apply max-w-[1920px] mx-auto relative flex items-center h-full px-6;
+    @apply max-w-[1800px] mx-auto h-full flex items-center px-6;
+  }
+
+  &__left {
+    @apply flex items-center gap-14;
   }
 
   &__logo {
-    @apply absolute top-[24px] left-[54px] w-[143px] h-[23px] block;
+    @apply block w-[143px] h-[23px];
   }
 
   &__nav {
-    @apply absolute top-[24px] left-[240px] flex gap-[24px] text-white font-inter font-normal text-[18px] leading-[140%];
-
     ul {
-      @apply flex gap-16 items-center;
-    }
+      @apply flex gap-8 text-white font-inter text-[16px] leading-[140%];
 
-    li {
-      @apply relative;
-      a {
-        @apply text-white hover:underline;
+      li a {
+        @apply hover:underline;
       }
     }
   }

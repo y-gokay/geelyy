@@ -17,15 +17,17 @@ export default function DesignSection() {
           </div>
 
           <div
-            className={`design-section__grid ${index === 1 ? "reverse" : ""}`}
+            className={`design-section__grid ${
+              index === 1 ? "design-section__grid--reverse" : ""
+            }`}
           >
             {section.images.map((img, i) => (
-              <div key={i} className="design-section__image-block">
+              <div key={i} className="design-section__item">
                 <Image
                   src={img.src}
                   alt={img.alt}
-                  width={i === 0 ? 920 : 651}
-                  height={i === 0 ? 926 : 493}
+                  width={920}
+                  height={600}
                   className="design-section__image"
                 />
                 {img.title && (

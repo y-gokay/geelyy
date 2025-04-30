@@ -42,7 +42,7 @@ export const geelyData = {
     url: "geely/jameel_motors.svg",
   },
   bannerMobile: {
-    url: "geely/heroImage.png",
+    url: "geely/heroImageMobile.png",
   },
   bannerDesktop: {
     url: "geely/heroImage.png",
@@ -116,6 +116,7 @@ export const geelyData = {
     description:
       "W pełni naładowany, Geely EX5 pozwoli Ci dotrzeć do celu Twojej podróży bez przystanków.",
     backgroundImage: "geely/sectionImage1.png",
+    backgroundImageMobile: "geely/sectionImage1.png",
   },
   charingSection: {
     subtitle: "SZYBSZE LADOWANIE",
@@ -126,5 +127,17 @@ export const geelyData = {
       url: "geely/charging.png",
       alt: "Charging Image",
     },
+    imageMobile: {
+      url: "geely/charging.png",
+      alt: "Charging Image",
+    },
+  },
+  batterySection: {
+    subtitle: "AKUMULATOR AEGIS SHORT BLADE",
+    title: "REWOLUCYJNA TECHNOLOGIA AKUMULATORÓW",
+    description:
+      "Odkryj większy zasięg, podniesione standardy bezpieczeństwa i ekspresowe ładowanie dzięki najnowszej innowacji Geely w dziedzinie technologii akumulatorów, która z sukcesem zaliczyła surowe, międzynarodowe testy bezpieczeństwa.",
+    backgroundImage: "geely/section-battery.png",
+    backgroundImageMobile: "geely/section-battery.png",
   },
 };

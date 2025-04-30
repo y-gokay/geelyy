@@ -1,11 +1,13 @@
-import Header from "@/components/header/Header";
+"use client";
 
+import Header from "@/components/header/Header";
 import Hero from "@/components/hero/Hero";
-import ImageTextSection from "../components/imageTextSection/imageTextSection";
+import ImageTextSection from "@/components/imageTextSection/imageTextSection";
 import SectionImage from "@/components/sectionImage/SectionImage";
 import InfoWithImageSection from "@/components/InfoWithImageSection/InfoWithImageSection";
+import { geelyData } from "@/services/geelyData";
 
-export default async function Home() {
+export default function Home() {
   const page = {
     blocks: [
       {
@@ -19,6 +21,7 @@ export default async function Home() {
       {
         id: "0003",
         __component: "section.image",
+        dataKey: "sectiondata",
       },
       {
         id: "0004",
@@ -40,8 +43,14 @@ export default async function Home() {
       <main className="page">
         {page.blocks.map((block) => {
           const Component = COMPONENT_MAP[block.__component];
+          const Datas = block.dataKey ? geelyData[block.dataKey] : undefined;
+
           return Component ? (
-            <Component key={block.id + block.__component} />
+            <Component
+              key={block.id + block.__component}
+              data={Datas}
+              variant={block.variant}
+            />
           ) : null;
         })}
       </main>

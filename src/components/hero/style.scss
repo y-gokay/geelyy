@@ -6,39 +6,58 @@
   }
 
   &__container {
-    @apply relative z-10 max-w-[1440px] mx-auto flex flex-col justify-between text-white h-full;
-    padding-top: 100px;
-    padding-bottom: 120px;
+    @apply relative z-10 max-w-[1440px] mx-auto flex flex-col justify-start text-white h-full px-[20px] pt-[60px] pb-[40px];
+
+    @screen md {
+      @apply flex-col justify-between px-0 pt-[100px] pb-[120px];
+    }
   }
 
   &__title {
-    @apply text-[56px] leading-[92px] mb-[40px] pl-[20px] font-geelyBoldAlt font-semibold;
+    @apply text-[32px] leading-[40px] text-center mb-6 font-geelyBoldAlt font-semibold;
+
+    @screen md {
+      @apply text-[56px] leading-[92px] text-left mb-[40px] pl-[20px];
+    }
   }
 
   &__badge {
-    @apply w-[339px] h-[164px] ml-auto mr-[50px];
+    @apply w-[200px] h-auto mx-auto mb-6;
+
+    @screen md {
+      @apply w-[339px] h-[164px] ml-auto mr-[50px] mb-0;
+    }
   }
 
   &__specs {
-    @apply flex gap-40 mt-auto;
+    @apply flex flex-col items-center gap-6 mt-10;
+
+    @screen md {
+      @apply flex-row items-start gap-40 mt-auto;
+    }
   }
 
   &__spec-block {
-    @apply flex gap-4 items-start;
+    @apply flex flex-col items-center text-center;
+
+    @screen md {
+      @apply flex-row items-start text-left gap-4;
+    }
   }
 
   &__spec-bar {
-    @apply bg-white;
+    @apply hidden;
 
-    width: 5px;
-    height: 69px;
+    @screen md {
+      @apply block bg-white w-[5px] h-[69px] flex-shrink-0;
+    }
   }
 
   &__spec-text {
     @apply font-geelyBoldAlt text-sm;
 
     h4 {
-      @apply text-[32px] font-geelyBoldAlt font-bold leading-none;
+      @apply text-[32px] font-bold leading-none;
     }
   }
 }
